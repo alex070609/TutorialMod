@@ -1,6 +1,7 @@
 package net.bacchus.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.bacchus.tutorialmod.block.ModBlocks;
 import net.bacchus.tutorialmod.item.ModCreativeModTabs;
 import net.bacchus.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -34,6 +35,7 @@ public class TutorialMod {
 
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
