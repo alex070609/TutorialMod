@@ -2,6 +2,7 @@ package net.bacchus.tutorialmod.item;
 
 import net.bacchus.tutorialmod.TutorialMod;
 import net.bacchus.tutorialmod.block.ModBlocks;
+import net.bacchus.tutorialmod.block.custom.SoundBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -27,7 +28,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
-
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 
