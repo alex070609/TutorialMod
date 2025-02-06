@@ -7,6 +7,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -31,6 +32,15 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                         pOutput.accept(ModItems.STRAWBERRY.get());
                         pOutput.accept(ModItems.PINE_CONE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_BUTTON.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_FENCE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_WALL.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_DOOR.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
                     })
                     .build());
 
