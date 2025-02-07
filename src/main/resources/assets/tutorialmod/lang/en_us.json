@@ -15,6 +15,13 @@
   "block.tutorialmod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
   "block.tutorialmod.sound_block": "Sound Block",
 
+
+  "item.tutorialmod.sapphire_sword": "Sapphire Sword",
+  "item.tutorialmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.tutorialmod.sapphire_axe": "Sapphire Axe",
+  "item.tutorialmod.sapphire_shovel": "Sapphire Shovel",
+  "item.tutorialmod.sapphire_hoe": "Sapphire Hoe",
+
   "tooltip.tutorialmod.metal_detector.tooltip": "Detects Ores underground en report their position",
 
 

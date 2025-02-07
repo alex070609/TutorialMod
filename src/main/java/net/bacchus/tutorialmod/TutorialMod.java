@@ -25,15 +25,15 @@ public class TutorialMod {
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public TutorialMod(FMLJavaModLoadingContext context)
-    {
+    public TutorialMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
-        // Register the commonSetup method for mod loading
 
         ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
