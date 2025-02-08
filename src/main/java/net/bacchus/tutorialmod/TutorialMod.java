@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.bacchus.tutorialmod.block.ModBlocks;
 import net.bacchus.tutorialmod.item.ModCreativeModTabs;
 import net.bacchus.tutorialmod.item.ModItems;
+import net.bacchus.tutorialmod.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,6 +33,8 @@ public class TutorialMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
