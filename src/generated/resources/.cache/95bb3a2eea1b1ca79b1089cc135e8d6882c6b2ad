@@ -1,0 +1,6 @@
+// 1.20.1	2025-02-08T11:19:21.9134502	Global Loot Modifiers : tutorialmod
+dfc134528e1c69cf3fdcdfaf50358a5886a01eeb data/forge/loot_modifiers/global_loot_modifiers.json
+974aa577acf6cf415aaad63c8b40c2ca98b67897 data/tutorialmod/loot_modifiers/metal_detector_from_jungle_temples.json
+f53831d60c316b56c468391ae0d371824d9fd7c7 data/tutorialmod/loot_modifiers/pine_cone_from_creeper.json
+6c8c603f8e12e5cfbf8dc32b195f22bb4aa0b431 data/tutorialmod/loot_modifiers/pine_cone_from_grass.json
+402622a69e51ccf9b8248171e5286ca492f98f3a data/tutorialmod/loot_modifiers/pine_cone_from_leaves.json
