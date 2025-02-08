@@ -1,6 +1,7 @@
 package net.bacchus.tutorialmod.item;
 
 import net.bacchus.tutorialmod.TutorialMod;
+import net.bacchus.tutorialmod.block.ModBlocks;
 import net.bacchus.tutorialmod.item.custom.FuelItem;
 import net.bacchus.tutorialmod.item.custom.MetalDetectorItem;
 import net.bacchus.tutorialmod.item.custom.ModArmorItem;
@@ -51,6 +52,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+
+    public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

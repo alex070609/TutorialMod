@@ -2,6 +2,7 @@ package net.bacchus.tutorialmod.block;
 
 import net.bacchus.tutorialmod.TutorialMod;
 import net.bacchus.tutorialmod.block.custom.SoundBlock;
+import net.bacchus.tutorialmod.block.custom.StrawberryCorpBlock;
 import net.bacchus.tutorialmod.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -74,6 +75,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> SAPPHIRE_TRAPDOOR = registerBlock("sapphire_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.OAK));
 
+    public static final RegistryObject<Block> STRAWBERRY_CROP = registerBlock("strawberry_crop",
+            () -> new StrawberryCorpBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
